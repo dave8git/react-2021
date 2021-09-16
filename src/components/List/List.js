@@ -26,7 +26,6 @@ class List extends React.Component {
         <div className={styles.description}>
           {ReactHtmlParser(description)}
         </div>
-         
         <div className={styles.columns}>
           {columns.map(columnData => ( 
             <Column key={columnData.id} {...columnData} />
