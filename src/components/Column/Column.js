@@ -3,9 +3,12 @@ import styles from './Column.scss';
 import PropTypes from 'prop-types';
 import Card from '../Card/Card.js';
 import Icon from '../Icon/Icon.js';
-
+import { settings } from '../../data/dataStore';
 
 class Column extends React.Component {
+    static defualtProps = {
+      icon: settings.defaultColumnIcon,
+    }
     static propTypes = {
       title: PropTypes.node.isRequired, 
       description: PropTypes.node,
