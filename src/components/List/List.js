@@ -9,7 +9,7 @@ import ReactHtmlParser from 'react-html-parser';
 
 class List extends React.Component {
   static propTypes = {
-    addColumn: PropTypes.node,
+    addColumn: PropTypes.func,
     title: PropTypes.node.isRequired, 
     description: PropTypes.node,
     columns: PropTypes.array, 
@@ -20,7 +20,7 @@ class List extends React.Component {
     description: settings.defaultListDescription,
   }
   render() {
-    const {title, image, description, columns} = this.props;
+    const {title, image, description, columns, addColumn} = this.props;
     return (
       <section className={styles.component}>
         <Hero titleText={title} image={image} />
