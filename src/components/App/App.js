@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './App.scss';
 import List from '../List/ListContainer';
+import Search from '../Search/SearchContainer';
 //import {pageContents, listData} from '../../data/dataStore.js';
 import PropTypes from 'prop-types';
 
@@ -22,7 +23,7 @@ class App extends React.Component {
         {/*
           <List {...listData} />
         */}
-        
+        <Search />
       </main>
     );
   }
