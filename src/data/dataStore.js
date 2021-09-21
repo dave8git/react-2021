@@ -1,6 +1,7 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  iconName: 'dog',
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
@@ -17,6 +18,19 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const faq = {
+  title: 'Często zadawane pytania',
+  subtitle: 'Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się długo w uczciwości, w języku strzelecki dzik, niedźwiedź, łoś, wilk zwany był ruchawy od przodków wiarę prawa i Waszeć z jakich rąk muskała włosów pukle nie chciał, według nowej sąsiadki a chłopi żegnali się, jak zdrowie.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
+export const info = {
+  title: 'Informacje',
+  subtitle: 'Sporo ciekawych informacji',
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 export const listData = {
@@ -71,7 +85,7 @@ export const listData = {
     },
   ],
 };
-
+ 
 const lists = [
   {
     id: 'list-1',

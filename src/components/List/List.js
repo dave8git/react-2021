@@ -6,7 +6,7 @@ import Column from '../Column/ColumnContainer';
 import Creator from '../Creator/Creator.js';
 import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
-import Container from '../../Container/Container';
+import Container from '../Container/Container';
 
 class List extends React.Component {
   static propTypes = {
