@@ -83,6 +83,36 @@ export const listData = {
         },
       ],
     },
+    {
+      key: 2,
+      title: 'Games',
+      icon: 'gamepad',
+      cards: [
+        {
+          key: 0,
+          title: 'Tomb Raider',
+        },
+        {
+          key: 1,
+          title: 'Simcity',
+        },
+      ],
+    },
+    {
+      key: 2,
+      title: 'Games',
+      icon: 'gamepad',
+      cards: [
+        {
+          key: 0,
+          title: 'Microsoft Flight Simulator',
+        },
+        {
+          key: 1,
+          title: 'NFS',
+        },
+      ],
+    },
   ],
 };
  
