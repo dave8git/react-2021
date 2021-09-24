@@ -3,7 +3,7 @@ import Home from '../Home/HomeContainer';
 import Info from '../Info/Info';
 import Faq from '../Faq/Faq';
 import List from '../List/ListContainer';
-import SearchResults from '../SearchResults/SearchResults';
+import SearchResults from '../SearchResults/SearchResultsContainer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import MainLayout from '../MainLayout/MainLayout';
 
